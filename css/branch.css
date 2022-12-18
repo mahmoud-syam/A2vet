@@ -209,7 +209,7 @@ a{
 }
 .SectionTitle::after{ 
   position: absolute;
-  bottom: -12px;
+  /* bottom: -12px; */
   left: 50%;
   font-size: 17px;
   color: var(--main-seconed-color);
@@ -614,8 +614,18 @@ footer span a:hover{
   .about .about-content .right p{
       font-size: 10px;
   }
-  .container {
+  /* .container {
     padding-left: 70px;
     padding-right: 70px;
+} */
+.allCards .mainCards .allMainCard .cardOne{
+  background: rgb(247, 247, 247);
+  border: 1px solid rgb(216, 217, 217);
+  padding: 25px;
+  display: block;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 7px 0px;
+  border-radius: 0.25rem !important;
 }
 }
