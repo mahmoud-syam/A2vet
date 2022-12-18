@@ -1,0 +1,19 @@
+.allCards .content .text{
+    padding-left: 15px !important;
+}
+.allCards .content h1 {
+    padding-left: 15px;
+}
+.allCards .content .details .phone{
+    padding-right: 9px;
+
+}
+/* .allCards .map{
+    font-size:15px;
+
+} */
+@media (max-width: 557px){
+    .allCards .content .text{
+        padding-left: 7px !important;
+    }
+}
